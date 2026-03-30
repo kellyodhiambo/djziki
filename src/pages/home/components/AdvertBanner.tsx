@@ -28,7 +28,7 @@ const AdvertBanner: React.FC = () => {
                     <span className="w-1 h-1 rounded-full bg-ziki-gold animate-pulse" />
                     Upcoming Event
                   </span>
-                  <span className="font-body text-gray-400 text-xs">{featured.genre}</span>
+
                 </div>
                 <h3 className="font-heading font-900 text-base md:text-lg text-gray-900 leading-tight mb-1">
                   {featured.title}

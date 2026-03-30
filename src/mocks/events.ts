@@ -6,10 +6,8 @@ export const upcomingEvents = [
     fullDate: "TBA",
     time: "10 PM – 4 AM",
     venue: "KISUMU",
-    location: "TBA",
-    genre: "AfroHOUSE x Amapiano",
+    location: "Kenya",
     featured: true,
-    ticketUrl: "#",
     img: "https://readdy.ai/api/search-image?query=exclusive%20nightclub%20event%20neon%20purple%20pink%20lighting%20dark%20atmosphere%20Lagos%20Nigeria%20DJ%20performance%20crowd%20dancing%20upscale%20venue%20night%20club&width=700&height=480&seq=djziki_ue1&orientation=landscape",
   }
 ];

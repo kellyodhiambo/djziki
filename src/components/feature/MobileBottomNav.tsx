@@ -5,7 +5,7 @@ const mobileNavItems = [
   { label: "About", path: "/about", icon: "ri-user-line", activeIcon: "ri-user-fill" },
   { label: "Mixes", path: "/mixes", icon: "ri-video-line", activeIcon: "ri-video-fill" },
   { label: "Gallery", path: "/gallery", icon: "ri-image-2-line", activeIcon: "ri-image-2-fill" },
-  { label: "Audio", path: "/audio", icon: "ri-music-2-line", activeIcon: "ri-music-2-fill" },
+  { label: "Social", path: "/social", icon: "ri-share-line", activeIcon: "ri-share-fill" },
   { label: "Book", path: "/booking", icon: "ri-calendar-check-line", activeIcon: "ri-calendar-check-fill" },
 ];
 

@@ -49,16 +49,13 @@ const UpcomingEvents: React.FC = () => {
 
               {/* Info */}
               <div className="flex-1 min-w-0 relative z-10">
-                <div className="flex flex-wrap items-center gap-2 mb-1">
-                  <span className="font-body text-[10px] text-ziki-gold border border-ziki-gold/25 bg-ziki-gold/8 rounded-full px-2.5 py-0.5">
-                    {event.genre}
-                  </span>
-                  {event.featured && (
+                {event.featured && (
+                  <div className="flex flex-wrap items-center gap-2 mb-1">
                     <span className="font-heading font-700 text-[9px] uppercase tracking-widest text-ziki-purple bg-ziki-purple/10 rounded-full px-2.5 py-0.5">
                       Featured
                     </span>
-                  )}
-                </div>
+                  </div>
+                )}
                 <h3 className="font-heading font-900 text-sm md:text-lg text-gray-900 leading-snug mb-1 truncate">
                   {event.title}
                 </h3>
