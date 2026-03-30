@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // ⚠️ IMPORTANT: Replace with DJ ZIKI's actual WhatsApp number (country code + number, no +, no spaces)
-const WHATSAPP_NUMBER = "27000000000";
+const WHATSAPP_NUMBER = "25494526856";
 
 const eventTypes = [
   "Wedding",

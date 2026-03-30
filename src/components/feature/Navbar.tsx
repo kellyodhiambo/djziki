@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="https://wa.me/27000000000"
+              href="https://wa.me/25494526856"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="whitespace-nowrap flex items-center gap-1.5 font-heading font-600 text-xs uppercase tracking-widest px-4 py-2.5 rounded-full border border-[#25D366]/35 text-[#25D366] hover:bg-[#25D366]/8 transition-all cursor-pointer"
@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
           </ul>
           <div className="px-6 py-4 grid grid-cols-2 gap-3">
             <a
-              href="https://wa.me/27000000000"
+              href="https://wa.me/25494526856"
               target="_blank"
               rel="noopener noreferrer nofollow"
               className="whitespace-nowrap flex items-center justify-center gap-1.5 font-heading font-600 text-xs uppercase tracking-widest py-3 rounded-full border border-[#25D366]/30 text-[#25D366] cursor-pointer"
