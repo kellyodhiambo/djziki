@@ -51,7 +51,7 @@ const Booking: React.FC = () => {
                   <h3 className="font-heading font-800 text-xs uppercase tracking-widest text-gray-400 mb-4">Direct Contact</h3>
                   {[
                     { icon: "ri-whatsapp-line", color: "#25D366", bg: "bg-[#25D366]/10", label: "WhatsApp", value: "+254794516856" },
-                    { icon: "ri-mail-line", color: undefined, bg: "bg-ziki-gold/10", label: "Email", value: "djziki@gmail.com" },
+                    { icon: "ri-mail-line", color: undefined, bg: "bg-ziki-gold/10", label: "Email", value: "djziki.ii@gmail.com" },
                     { icon: "ri-instagram-line", color: undefined, bg: "bg-ziki-purple/10", label: "Instagram DM", value: "@mitchell.riziki" },
                   ].map((c) => (
                     <div key={c.label} className="flex items-center gap-3">
