@@ -10,8 +10,7 @@ const socials = [
 ];
 
 const stats = [
-  { value: "500+", label: "Events" },
-  { value: "20+", label: "Countries" },
+  { value: "10+", label: "Events" },
   { value: "10K+", label: "Fans" },
 ];
 
