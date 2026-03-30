@@ -1,4 +1,12 @@
-export const videoMixes = [];
+export const videoMixes: {
+  id: string;
+  title: string;
+  genre: string;
+  duration: string;
+  youtubeId: string;
+  thumbnail: string;
+  views: string;
+}[] = [];
 
 export const audioMixes = [
   {
