@@ -1,14 +1,4 @@
-export const videoMixes = [
-  {
-    id: "v1",
-    title: "Afrohouse Music Mixtape",
-    genre: "Afrobeats",
-    duration: "1:12:34",
-    youtubeId: "K1fNqKkQlEw",
-    thumbnail: "https://i.postimg.cc/zBmJTm03/Whats_App_Image_2026_03_30_at_11_00_58_AM.jpg",
-    views: "128K",
-  }
-];
+export const videoMixes = [];
 
 export const audioMixes = [
   {

@@ -39,8 +39,8 @@ const BiographySection: React.FC = () => {
                 She’s also open and good to playing other music genre. With a passion for music and a natural ability to connect with her audience, she creates an atmosphere that is both vibrant and luxurious.
               </p>
               <p>Her sound is versatile and adaptable, allowing her to perform across a wide range of events from intimate gatherings to high-energy parties and upscale experiences. DJ Ziki’s mission is to not just play music, but to curate unforgettable moments where rhythm, energy and style come together seamlessly.{" "}
-                <strong className="text-gray-800 font-600">Afrobeats</strong> and{" "}
-                <strong className="text-gray-800 font-600">Amapiano</strong>
+                <strong className="text-gray-800 font-600"></strong>{" "}
+                <strong className="text-gray-800 font-600"></strong>
               </p>
               <p>
                 With a growing presence and a unique vibe that balances hype and elegance, DJ Ziki is quickly becoming a name to watch.

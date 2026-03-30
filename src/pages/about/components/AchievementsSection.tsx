@@ -1,11 +1,5 @@
 import { Link } from "react-router-dom";
 
-const stats = [
-  { value: "10+", label: "Events Performed" },
-  { value: "10K+", label: "Fans Worldwide" },
-  { value: "5+", label: "Years in the Game" },
-];
-
 const events = [
   {
     year: "2025", title: "Pulse Of The Lake", location: "Kenya",
@@ -18,18 +12,7 @@ const AchievementsSection: React.FC = () => {
   return (
     <section className="py-16 md:py-24 bg-ziki-light">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
-        {/* Stats */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-16 md:mb-20">
-          {stats.map((s) => (
-            <div key={s.label}
-              className="text-center rounded-2xl bg-white border border-black/[0.07] py-8 px-4 hover:border-ziki-gold/20 transition-all duration-300">
-              <p className="font-heading font-900 text-4xl md:text-5xl text-gradient-pink-purple mb-2">{s.value}</p>
-              <p className="font-body text-gray-400 text-sm">{s.label}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Events */}
+{/* Events */}
         <div className="mb-12">
           <p className="font-heading font-600 text-ziki-gold text-[10px] md:text-xs uppercase tracking-[0.35em] mb-3">Career Highlights</p>
           <h2 className="font-heading font-900 text-3xl md:text-4xl text-gray-900">
