@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { upcomingEvents } from "../../../mocks/events";
 
 const AdvertBanner: React.FC = () => {
@@ -45,13 +44,7 @@ const AdvertBanner: React.FC = () => {
               </div>
             </div>
 
-            {/* CTA */}
-            <Link
-              to="/booking"
-              className="whitespace-nowrap shrink-0 inline-flex items-center gap-2 font-heading font-700 text-xs uppercase tracking-widest px-6 py-3 rounded-full bg-gradient-to-r from-ziki-gold to-ziki-purple text-white hover:opacity-90 transition-opacity cursor-pointer"
-            >
-              <i className="ri-ticket-2-line" />Get Tickets
-            </Link>
+
           </div>
         </div>
       </div>

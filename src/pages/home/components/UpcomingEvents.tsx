@@ -72,13 +72,7 @@ const UpcomingEvents: React.FC = () => {
                 </div>
               </div>
 
-              {/* Get Tickets CTA */}
-              <Link
-                to="/booking"
-                className="whitespace-nowrap shrink-0 relative z-10 inline-flex items-center gap-2 font-heading font-700 text-[11px] uppercase tracking-widest px-5 md:px-6 py-2.5 rounded-full bg-gradient-to-r from-ziki-gold to-ziki-purple text-white hover:opacity-90 transition-opacity cursor-pointer"
-              >
-                <i className="ri-ticket-2-line" />Get Tickets
-              </Link>
+
             </div>
           ))}
         </div>
