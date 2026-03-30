@@ -33,9 +33,6 @@ const Footer: React.FC = () => {
                 DJ ZIKI
               </span>
             </div>
-            <p className="font-body text-white/35 text-sm leading-relaxed mb-6 max-w-xs">
-              Premium DJ for Afrobeats, Amapiano, Hip-Hop &amp; House. Available worldwide.
-            </p>
             <div className="flex items-center gap-2.5">
               {[
                 { icon: "ri-instagram-line", href: "https://instagram.com", label: "Instagram" },

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { videoMixes } from "../../../mocks/mixes";
 
-const ALL_GENRES = ["All", "Afrobeats", "Amapiano", "Hip-Hop", "House", "Fusion"];
+const ALL_GENRES = ["All", "Afrobeats", "Amapiano", "Rhumba", "House", "Fusion"];
 
 const VideosSection: React.FC = () => {
   const [filter, setFilter] = useState("All");
